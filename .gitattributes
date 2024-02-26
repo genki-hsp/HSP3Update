@@ -3,5 +3,5 @@
 *.hsp    text diff=sjis
 *.as     text eol=crlf diff=sjis working-tree-encoding=cp932
 *.hs     text eol=crlf diff=sjis working-tree-encoding=cp932
-*.txt    text eol=crlf diff=sjis working-tree-encoding=cp932
+*.txt    text eol=crlf working-tree-encoding=cp932
 *.hspupd text eol=crlf diff=sjis working-tree-encoding=cp932
