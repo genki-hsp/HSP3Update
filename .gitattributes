@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=crlf
 *.hsp    text diff=sjis eol=crlf working-tree-encoding=cp932
 *.as     text diff=sjis eol=crlf working-tree-encoding=cp932
 *.hs     text diff=sjis eol=crlf working-tree-encoding=cp932
