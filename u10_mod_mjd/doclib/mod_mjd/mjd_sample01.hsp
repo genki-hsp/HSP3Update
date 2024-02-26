@@ -1,0 +1,33 @@
+;============================================================
+;
+;	mod_mjd  sample script
+;
+;============================================================
+;
+; グレゴリオ暦　←→　修正ユリウス日
+;
+; 通常の年月日を日だけの表記にします。
+;
+;============================================================
+#include "mod_mjd.hsp"
+
+;-----------------------------
+;	グレゴリオ暦　←→　修正ユリウス日
+;-----------------------------
+;Wikipedia「ユリウス通日 4 西暦からの換算 計算例」より
+;https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%AA%E3%82%A6%E3%82%B9%E9%80%9A%E6%97%A5#.E8.A8.88.E7.AE.97.E4.BE.8B
+;紀元前4713年 1月 1日　→　-2399963
+;       200年 3月 1日　→　 -605833
+;      1582年10月15日　→　 -100840
+;      2000年 1月 1日　→　   51544
+;
+mes "BC 4713年 1月 1日　→　" + ConvertG2MJD(1-4713, 1, 1)
+mes "AD  200年 3月 1日　→　" + ConvertG2MJD(   200, 3, 1)
+mes "AD 1582年10月15日　→　" + ConvertG2MJD(  1582,10,15)
+mes "AD 2000年 1月 1日　→　" + ConvertG2MJD(  2000, 1, 1)
+x = -2399963 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d　→　%5d年%2d月%2d日",x, Year, Month, Day)
+x =  -605833 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d　→　%5d年%2d月%2d日",x, Year, Month, Day)
+x =  -100840 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d　→　%5d年%2d月%2d日",x, Year, Month, Day)
+x =    51544 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d　→　%5d年%2d月%2d日",x, Year, Month, Day)
+
+
