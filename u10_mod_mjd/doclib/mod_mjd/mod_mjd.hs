@@ -1,72 +1,72 @@
 ;--------------------------------------------------
-; HSP ãƒ˜ãƒ«ãƒ— ã‚½ãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ« (hs å½¢å¼)
-; hs ãƒ•ã‚¡ã‚¤ãƒ«ã®æ›¸å¼ã«ã¤ã„ã¦ã¯ã€HS_BIBLE.txt ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
+; HSP ƒwƒ‹ƒv ƒ\[ƒXƒtƒ@ƒCƒ‹ (hs Œ`Ž®)
+; hs ƒtƒ@ƒCƒ‹‚Ì‘Ž®‚É‚Â‚¢‚Ä‚ÍAHS_BIBLE.txt ‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
 
 ;--------------------------------------------------
-; ã“ã® hs ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å€¤ã‚’è¨­å®š
+; ‚±‚Ì hs ƒtƒ@ƒCƒ‹‚ÌƒfƒtƒHƒ‹ƒg‚ÌƒtƒB[ƒ‹ƒh’l‚ðÝ’è
 
 %dll
-; ãƒ—ãƒ©ã‚°ã‚¤ãƒ³/ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«å ã‚’è¨˜å…¥
+; ƒvƒ‰ƒOƒCƒ“/ƒ‚ƒWƒ…[ƒ‹–¼ ‚ð‹L“ü
 mod_mjd
 
 %ver
-; ãƒãƒ¼ã‚¸ãƒ§ãƒ³ ã‚’è¨˜å…¥
+; ƒo[ƒWƒ‡ƒ“ ‚ð‹L“ü
 1.00
 
 %date
-; æ—¥ä»˜ ã‚’è¨˜å…¥
+; “ú•t ‚ð‹L“ü
 2017/02/20
 
 %author
-; è‘—ä½œè€… ã‚’è¨˜å…¥
+; ’˜ìŽÒ ‚ð‹L“ü
 GENKI
 
 %url
 http://mclab.uunyan.com/
 
 %note
-mod_mjd.hspã‚’ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã™ã‚‹ã“ã¨ã€‚
+mod_mjd.hsp‚ðƒCƒ“ƒNƒ‹[ƒh‚·‚é‚±‚ÆB
 
 %type
-æ‹¡å¼µå‘½ä»¤
+Šg’£–½—ß
 
 %port
-; å¯¾å¿œç’°å¢ƒ ã‚’è¨˜å…¥
+; ‘Î‰žŠÂ‹« ‚ð‹L“ü
 
 %portinfo
-; ç§»æ¤ã®ãƒ’ãƒ³ãƒˆ ã‚’è¨˜å…¥
+; ˆÚA‚Ìƒqƒ“ƒg ‚ð‹L“ü
 
 
 %index
 ConvertG2MJD
-ã‚°ãƒ¬ã‚´ãƒªã‚ªæš¦ã‚’ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã¸æ›ç®—
+ƒOƒŒƒSƒŠƒI—ï‚ðC³ƒ†ƒŠƒEƒX“ú‚ÖŠ·ŽZ
 
 %prm
 ( Year, Month, Day )
-int Year  : å¹´
-int Month : æœˆ
-int Day   : æ—¥
-val : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
+int Year  : ”N
+int Month : ŒŽ
+int Day   : “ú
+val : C³ƒ†ƒŠƒEƒX“ú
 
 %inst
-ã‚°ãƒ¬ã‚´ãƒªã‚ªæš¦ï¼ˆç¾åœ¨ä½¿ã‚ã‚Œã¦ã„ã‚‹æ™®é€šã®å¤ªé™½æš¦ï¼‰ã‚’ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ï¼ˆMJDï¼‰ã«å¤‰æ›ã—ã¾ã™ã€‚
+ƒOƒŒƒSƒŠƒI—ïiŒ»ÝŽg‚í‚ê‚Ä‚¢‚é•’Ê‚Ì‘¾—z—ïj‚ðC³ƒ†ƒŠƒEƒX“úiMJDj‚É•ÏŠ·‚µ‚Ü‚·B
 
 Year
-å¹´ã‚’æ•´æ•°å€¤ã§æŒ‡å®šã—ã¦ãã ã„ã€‚
-è¥¿æš¦2017å¹´ã®å ´åˆã¯ã€2017ã‚’æŒ‡å®šã—ã¾ã™ã€‚
-ç´€å…ƒå‰100å¹´ã®å ´åˆã¯ã€-99ï¼ˆ=1-100ï¼‰ã‚’æŒ‡å®šã—ã¾ã™ã€‚
+”N‚ð®”’l‚ÅŽw’è‚µ‚Ä‚­‚¾‚¢B
+¼—ï2017”N‚Ìê‡‚ÍA2017‚ðŽw’è‚µ‚Ü‚·B
+‹IŒ³‘O100”N‚Ìê‡‚ÍA-99i=1-100j‚ðŽw’è‚µ‚Ü‚·B
 
 Month
-æœˆã‚’1ã€œ12ã®æ•´æ•°å€¤ã§æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
+ŒŽ‚ð1`12‚Ì®”’l‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
 
 Day
-æ—¥ã‚’1ã€œ31ã®æ•´æ•°å€¤ã§æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
+“ú‚ð1`31‚Ì®”’l‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
 
-æˆ»ã‚Šå€¤
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‚’æ•´æ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+–ß‚è’l
+C³ƒ†ƒŠƒEƒX“ú‚ð®”’l‚Å•Ô‚µ‚Ü‚·B
 
 %sample
-; ã‚µãƒ³ãƒ—ãƒ«ã‚¹ã‚¯ãƒªãƒ—ãƒˆ ã‚’è¨˜å…¥
+; ƒTƒ“ƒvƒ‹ƒXƒNƒŠƒvƒg ‚ð‹L“ü
 
 %href
 ConvertMJD2G
@@ -77,49 +77,49 @@ MJD2Jikkan
 MJD2Kanshi
 
 %group
-æ—¥ä»˜æ›ç®—
+“ú•tŠ·ŽZ
 
 %index
 ConvertTime2MJD
-æ™‚åˆ»ã‚’ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã¸æ›ç®—
+Žž‚ðC³ƒ†ƒŠƒEƒX“ú‚ÖŠ·ŽZ
 
 %prm
 ( Hour, Min, Sec )
-int/double Hour : æ™‚
-int/double Min  : åˆ†
-int/double Sec  : ç§’
-val      : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥æ™‚åˆ»
+int/double Hour : Žž
+int/double Min  : •ª
+int/double Sec  : •b
+val      : C³ƒ†ƒŠƒEƒX“úŽž
 
 %inst
-æ™‚åˆ»ï¼ˆhh:mm:ss.ssï¼‰ã‚’ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã®æ™‚åˆ»ã¸æ›ç®—ã—ã¾ã™ã€‚
-çµæžœã¯å®Ÿæ•°ã§è¿”ã•ã‚Œã¾ã™ã€‚ConvertG2MJDé–¢æ•°ã§ã®æ›ç®—çµæžœã«è¶³ã—ç®—ã—ã¦åˆ©ç”¨ã—ã¦ãã ã•ã„ã€‚
+Žžihh:mm:ss.ssj‚ðC³ƒ†ƒŠƒEƒX“ú‚ÌŽž‚ÖŠ·ŽZ‚µ‚Ü‚·B
+Œ‹‰Ê‚ÍŽÀ”‚Å•Ô‚³‚ê‚Ü‚·BConvertG2MJDŠÖ”‚Å‚ÌŠ·ŽZŒ‹‰Ê‚É‘«‚µŽZ‚µ‚Ä—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
 
 Hour
-æ™‚ã‚’å®Ÿæ•°åˆã¯æ•°å€¤ã§æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
-é€šå¸¸ã¯æ•´æ•°å€¤ã‚’ä½¿ã£ã¦ãã ã•ã„ã€‚
+Žž‚ðŽÀ”–”‚Í”’l‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
+’Êí‚Í®”’l‚ðŽg‚Á‚Ä‚­‚¾‚³‚¢B
 
 Min
-åˆ†ã‚’å®Ÿæ•°åˆã¯æ•°å€¤ã§æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
-é€šå¸¸ã¯æ•´æ•°å€¤ã‚’ä½¿ã£ã¦ãã ã•ã„ã€‚
+•ª‚ðŽÀ”–”‚Í”’l‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
+’Êí‚Í®”’l‚ðŽg‚Á‚Ä‚­‚¾‚³‚¢B
 
 Sec
-ç§’ã‚’å®Ÿæ•°åˆã¯æ•°å€¤ã§æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
-å°æ•°ç‚¹ä»¥ä¸‹ã‚’ä½¿ã£ã¦ãƒŸãƒªç§’ã‚‚æŒ‡å®šã§ãã¾ã™ã€‚
+•b‚ðŽÀ”–”‚Í”’l‚ÅŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
+¬”“_ˆÈ‰º‚ðŽg‚Á‚Äƒ~ƒŠ•b‚àŽw’è‚Å‚«‚Ü‚·B
 
-è¨ˆç®—çµæžœã®ä¾‹ï¼š
-  0æ™‚00åˆ†00ç§’ã€€0.00000
-  0æ™‚00åˆ†01ç§’ã€€0.00001
-  9æ™‚00åˆ†00ç§’ã€€0.37500
- 19æ™‚00åˆ†00ç§’ã€€0.79167
- 24æ™‚00åˆ†00ç§’ã€€1.00000
+ŒvŽZŒ‹‰Ê‚Ì—áF
+  0Žž00•ª00•b@0.00000
+  0Žž00•ª01•b@0.00001
+  9Žž00•ª00•b@0.37500
+ 19Žž00•ª00•b@0.79167
+ 24Žž00•ª00•b@1.00000
 
-å†…éƒ¨ã§ã¯æ¬¡ã®ã‚ˆã†ãªè¨ˆç®—ã‚’ã—ã¦ã„ã¾ã™ã€‚
+“à•”‚Å‚ÍŽŸ‚Ì‚æ‚¤‚ÈŒvŽZ‚ð‚µ‚Ä‚¢‚Ü‚·B
 Hour/24 + Min/(60*24) + Sec/(60*60*24)
 
 
 %sample
-	; 10æ™‚09åˆ†08ç§’
-	;å‡ºåŠ›çµæžœã¯ã€Œ0.42301ã€
+	; 10Žž09•ª08•b
+	;o—ÍŒ‹‰Ê‚Íu0.42301v
 mes strf("%0.5f", ConvertTime2MJD(10, 9, 8))
 
 
@@ -128,43 +128,43 @@ ConvertMJD2Time
 ConvertG2MJD
 
 %group
-æ—¥ä»˜æ›ç®—
+“ú•tŠ·ŽZ
 
 
 %index
 ConvertMJD2Time
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‚’æ™‚åˆ»ã¸æ›ç®—
+C³ƒ†ƒŠƒEƒX“ú‚ðŽž‚ÖŠ·ŽZ
 
 %prm
 mjdtime, Hour, Min, Sec
-double mjdtie : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥æ™‚åˆ»
-var Hour      : æ™‚
-var Min       : åˆ†
-var Sec       : ç§’
+double mjdtie : C³ƒ†ƒŠƒEƒX“úŽž
+var Hour      : Žž
+var Min       : •ª
+var Sec       : •b
 
 %inst
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã®æ™‚åˆ»ï¼ˆå°æ•°ç‚¹ä»¥ä¸‹ã®éƒ¨åˆ†ï¼‰ã‚’æ™‚åˆ»ï¼ˆhh:mm:ss.ssï¼‰ã«æ›ç®—ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚ÌŽži¬”“_ˆÈ‰º‚Ì•”•ªj‚ðŽžihh:mm:ss.ssj‚ÉŠ·ŽZ‚µ‚Ü‚·B
 
 mjdtime
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã®å°æ•°éƒ¨åˆ†ã‚’å–ã‚Šå‡ºã—ã¦æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
-ã¾ãŸã¯ConvertTime2MJDé–¢æ•°ã®å€¤ã‚’æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚Ì¬”•”•ª‚ðŽæ‚èo‚µ‚ÄŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
+‚Ü‚½‚ÍConvertTime2MJDŠÖ”‚Ì’l‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
 
 Hour
-å°æ•°å€¤ã‹ã‚‰æ™‚ã‚’å–ã‚Šå‡ºã—ã¦æ•´æ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+¬”’l‚©‚çŽž‚ðŽæ‚èo‚µ‚Ä®”’l‚Å•Ô‚µ‚Ü‚·B
 
 Min
-å°æ•°å€¤ã‹ã‚‰åˆ†ã‚’å–ã‚Šå‡ºã—ã¦æ•´æ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+¬”’l‚©‚ç•ª‚ðŽæ‚èo‚µ‚Ä®”’l‚Å•Ô‚µ‚Ü‚·B
 
 Sec
-å°æ•°å€¤ã‹ã‚‰ç§’ã‚’å–ã‚Šå‡ºã—ã¦å®Ÿæ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+¬”’l‚©‚ç•b‚ðŽæ‚èo‚µ‚ÄŽÀ”’l‚Å•Ô‚µ‚Ü‚·B
 
 
 %sample
- ;å‡ºåŠ›çµæžœ
- ;10æ™‚09åˆ†08ç§’
+ ;o—ÍŒ‹‰Ê
+ ;10Žž09•ª08•b
 
 ConvertMJD2Time 0.42301, h,m,s
-mes strf("%02dæ™‚%02dåˆ†%02dç§’", h, m, s)
+mes strf("%02dŽž%02d•ª%02d•b", h, m, s)
 
 %href
 ConvertTime2MJD
@@ -172,36 +172,36 @@ ConvertMJD2G
 GetMJDNow
 
 %group
-æ—¥ä»˜æ›ç®—
+“ú•tŠ·ŽZ
 
 %index
 ConvertMJD2G
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰ã‚°ãƒ¬ã‚´ãƒªã‚ªæš¦ã¸æ›ç®—
+C³ƒ†ƒŠƒEƒX“ú‚©‚çƒOƒŒƒSƒŠƒI—ï‚ÖŠ·ŽZ
 
 %prm
 mjd, Year, Month, Day
-int mjd   : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
-var Year  : å¹´
-var Month : æœˆ
-var Day   : æ—¥
+int mjd   : C³ƒ†ƒŠƒEƒX“ú
+var Year  : ”N
+var Month : ŒŽ
+var Day   : “ú
 
 %inst
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ï¼ˆMJDï¼‰ã‚’ã‚°ãƒ¬ã‚´ãƒªã‚ªæš¦ï¼ˆç¾åœ¨ä½¿ã‚ã‚Œã¦ã„ã‚‹æ™®é€šã®å¤ªé™½æš¦ï¼‰ã«å¤‰æ›ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“úiMJDj‚ðƒOƒŒƒSƒŠƒI—ïiŒ»ÝŽg‚í‚ê‚Ä‚¢‚é•’Ê‚Ì‘¾—z—ïj‚É•ÏŠ·‚µ‚Ü‚·B
 
 mjd
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã®æ•´æ•°å€¤éƒ¨åˆ†ã‚’æŒ‡å®šã—ã¦ãã ã•ã„ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚Ì®”’l•”•ª‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
 
 Year
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰å¹´ã‚’å–ã‚Šå‡ºã—ã¦æ•´æ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç”N‚ðŽæ‚èo‚µ‚Ä®”’l‚Å•Ô‚µ‚Ü‚·B
 
 Month
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰æœˆã‚’å–ã‚Šå‡ºã—ã¦æ•´æ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚çŒŽ‚ðŽæ‚èo‚µ‚Ä®”’l‚Å•Ô‚µ‚Ü‚·B
 
 Day
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰æ—¥ã‚’å–ã‚Šå‡ºã—ã¦æ•´æ•°å€¤ã§è¿”ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç“ú‚ðŽæ‚èo‚µ‚Ä®”’l‚Å•Ô‚µ‚Ü‚·B
 
 %sample
-; ã‚µãƒ³ãƒ—ãƒ«ã‚¹ã‚¯ãƒªãƒ—ãƒˆ ã‚’è¨˜å…¥
+; ƒTƒ“ƒvƒ‹ƒXƒNƒŠƒvƒg ‚ð‹L“ü
 
 %href
 ConvertG2MJD
@@ -209,229 +209,229 @@ ConvertMJD2Time
 GetMJDToday
 
 %group
-æ—¥ä»˜æ›ç®—
+“ú•tŠ·ŽZ
 
 %index
 MJD2Weekday
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰æ›œæ—¥ã‚’å–å¾—
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç—j“ú‚ðŽæ“¾
 
 %prm
 ( mjd )
-int mjd : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
-val     : æ›œæ—¥ï¼ˆ0ã€œ6ï¼‰
+int mjd : C³ƒ†ƒŠƒEƒX“ú
+val     : —j“úi0`6j
 
 %inst
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰æ›œæ—¥ã‚’å–å¾—ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç—j“ú‚ðŽæ“¾‚µ‚Ü‚·B
 
-çµæžœã¯0ã€œ6ã®æ•°å€¤ã§è¿”ã•ã‚Œã¾ã™ã€‚æ•°å€¤ã®å¯¾å¿œã¯æ¬¡ã®é€šã‚Šã€‚
+Œ‹‰Ê‚Í0`6‚Ì”’l‚Å•Ô‚³‚ê‚Ü‚·B”’l‚Ì‘Î‰ž‚ÍŽŸ‚Ì’Ê‚èB
       0  1  2  3  4  5  6
-æ›œæ—¥ æ—¥ æœˆ ç« æ°´ æœ¨ é‡‘ åœŸ
+—j“ú “ú ŒŽ ‰Î … –Ø ‹à “y
 
 
 %sample
- ;2012/1/1ï¼ˆæ—¥æ›œæ—¥ï¼‰ã®å ´åˆ
+ ;2012/1/1i“ú—j“új‚Ìê‡
 
-æ›œæ—¥ = "æ—¥", "æœˆ", "ç«", "æ°´", "æœ¨", "é‡‘", "åœŸ"
-mes æ›œæ—¥( MJD2Weekday(ConvertG2MJD(2012,1,1)) )
+—j“ú = "“ú", "ŒŽ", "‰Î", "…", "–Ø", "‹à", "“y"
+mes —j“ú( MJD2Weekday(ConvertG2MJD(2012,1,1)) )
 
 %href
 ConvertG2MJD
 GetMJDToday
 
 %group
-æ—¥ä»˜è¨ˆç®—
+“ú•tŒvŽZ
 
 %index
 MJD2Jyunishi
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰åäºŒæ”¯ã‚’å–å¾—
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç\“ñŽx‚ðŽæ“¾
 
 %prm
 ( mjd )
-int mjd : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
-val     : åäºŒæ”¯ï¼ˆ0ã€œ11ï¼‰
+int mjd : C³ƒ†ƒŠƒEƒX“ú
+val     : \“ñŽxi0`11j
 
 %inst
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰åäºŒæ”¯ã‚’å–å¾—ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç\“ñŽx‚ðŽæ“¾‚µ‚Ü‚·B
 
-çµæžœã¯0ã€œ11ã®æ•°å€¤ã§è¿”ã•ã‚Œã¾ã™ã€‚æ•°å€¤ã®å¯¾å¿œã¯æ¬¡ã®é€šã‚Šã€‚
+Œ‹‰Ê‚Í0`11‚Ì”’l‚Å•Ô‚³‚ê‚Ü‚·B”’l‚Ì‘Î‰ž‚ÍŽŸ‚Ì’Ê‚èB
   0  1  2  3  4  5  6  7  8  9 10 11
- å­ ä¸‘ å¯… å¯ è¾° å·³ åˆ æœª ç”³ é…‰ æˆŒ äº¥
+ Žq ‰N “Ð ‰K ’C –¤ Œß –¢ \ “Ñ œú ˆå
 
 
 %sample
- ;2012/1/1ï¼ˆé…‰ï¼‰ã®å ´åˆ
+ ;2012/1/1i“Ñj‚Ìê‡
 
-åäºŒæ”¯ = "å­", "ä¸‘", "å¯…", "å¯", "è¾°", "å·³", "åˆ", "æœª", "ç”³", "é…‰", "æˆŒ", "äº¥"
-mes åäºŒæ”¯( MJD2Jyunishi(ConvertG2MJD(2012,1,1)) )
+\“ñŽx = "Žq", "‰N", "“Ð", "‰K", "’C", "–¤", "Œß", "–¢", "\", "“Ñ", "œú", "ˆå"
+mes \“ñŽx( MJD2Jyunishi(ConvertG2MJD(2012,1,1)) )
 
 
 %href
 ConvertG2MJD
 GetMJDToday
 %group
-æ—¥ä»˜è¨ˆç®—
+“ú•tŒvŽZ
 
 %index
 MJD2Jikkan
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰åå¹²ã‚’å–å¾—
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç\Š±‚ðŽæ“¾
 
 %prm
 ( mjd )
-int mjd : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
-val     : åå¹²ï¼ˆ0ã€œ9ï¼‰
+int mjd : C³ƒ†ƒŠƒEƒX“ú
+val     : \Š±i0`9j
 
 %inst
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰åå¹²ã‚’å–å¾—ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚ç\Š±‚ðŽæ“¾‚µ‚Ü‚·B
 
-çµæžœã¯0ã€œ9ã®æ•°å€¤ã§è¿”ã•ã‚Œã¾ã™ã€‚æ•°å€¤ã®å¯¾å¿œã¯æ¬¡ã®é€šã‚Šã€‚
+Œ‹‰Ê‚Í0`9‚Ì”’l‚Å•Ô‚³‚ê‚Ü‚·B”’l‚Ì‘Î‰ž‚ÍŽŸ‚Ì’Ê‚èB
   0  1  2  3  4  5  6  7  8  9
- ç”² ä¹™ ä¸™ ä¸ æˆŠ å·± åºš è¾› å£¬ ç™¸
+ b ‰³ •¸ ’š •è ŒÈ M h p á¡
 
 %sample
- ;2012/1/1ï¼ˆè¾›ï¼‰ã®å ´åˆ
+ ;2012/1/1ihj‚Ìê‡
 
-åå¹² = "ç”²", "ä¹™", "ä¸™", "ä¸", "æˆŠ", "å·±", "åºš", "è¾›", "å£¬", "ç™¸"
-mes åå¹²( MJD2Jikkan(ConvertG2MJD(2012,1,1)) )
+\Š± = "b", "‰³", "•¸", "’š", "•è", "ŒÈ", "M", "h", "p", "á¡"
+mes \Š±( MJD2Jikkan(ConvertG2MJD(2012,1,1)) )
 
 %href
 ConvertG2MJD
 GetMJDToday
 
 %group
-æ—¥ä»˜è¨ˆç®—
+“ú•tŒvŽZ
 
 %index
 MJD2Kanshi
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰å¹²æ”¯ç´€æ—¥ã‚’å–å¾—
+C³ƒ†ƒŠƒEƒX“ú‚©‚çŠ±Žx‹I“ú‚ðŽæ“¾
 
 %prm
 ( mjd )
-int mjd : ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
-val     : å¹²æ”¯ç´€æ—¥ï¼ˆ0ã€œ59ï¼‰
+int mjd : C³ƒ†ƒŠƒEƒX“ú
+val     : Š±Žx‹I“úi0`59j
 
 %inst
-ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‹ã‚‰å¹²æ”¯ç´€æ—¥ã‚’å–å¾—ã—ã¾ã™ã€‚
+C³ƒ†ƒŠƒEƒX“ú‚©‚çŠ±Žx‹I“ú‚ðŽæ“¾‚µ‚Ü‚·B
 
-çµæžœã¯0ã€œ59ã®æ•°å€¤ã§è¿”ã•ã‚Œã¾ã™ã€‚æ•°å€¤ã®å¯¾å¿œã¯æ¬¡ã®é€šã‚Šã€‚
-    0  ç”²å­
-    1  ä¹™ä¸‘
-    2  ä¸™å¯…
-    3  ä¸å¯
-    4  æˆŠè¾°
-    5  å·±å·³
-    6  åºšåˆ
-    7  è¾›æœª
-    8  å£¬ç”³
-    9  ç™¸é…‰
-   10  ç”²æˆŒ
-   11  ä¹™äº¥
-   12  ä¸™å­
-   13  ä¸ä¸‘
-   14  æˆŠå¯…
-   15  å·±å¯
-   16  åºšè¾°
-   17  è¾›å·³
-   18  å£¬åˆ
-   19  ç™¸æœª
-   20  ç”²ç”³
-   21  ä¹™é…‰
-   22  ä¸™æˆŒ
-   23  ä¸äº¥
-   24  æˆŠå­
-   25  å·±ä¸‘
-   26  åºšå¯…
-   27  è¾›å¯
-   28  å£¬è¾°
-   29  ç™¸å·³
-   30  ç”²åˆ
-   31  ä¹™æœª
-   32  ä¸™ç”³
-   33  ä¸é…‰
-   34  æˆŠæˆŒ
-   35  å·±äº¥
-   36  åºšå­
-   37  è¾›ä¸‘
-   38  å£¬å¯…
-   39  ç™¸å¯
-   40  ç”²è¾°
-   41  ä¹™å·³
-   42  ä¸™åˆ
-   43  ä¸æœª
-   44  æˆŠç”³
-   45  å·±é…‰
-   46  åºšæˆŒ
-   47  è¾›äº¥
-   48  å£¬å­
-   49  ç™¸ä¸‘
-   50  ç”²å¯…
-   51  ä¹™å¯
-   52  ä¸™è¾°
-   53  ä¸å·³
-   54  æˆŠåˆ
-   55  å·±æœª
-   56  åºšç”³
-   57  è¾›é…‰
-   58  å£¬æˆŒ
-   59  ç™¸äº¥
+Œ‹‰Ê‚Í0`59‚Ì”’l‚Å•Ô‚³‚ê‚Ü‚·B”’l‚Ì‘Î‰ž‚ÍŽŸ‚Ì’Ê‚èB
+    0  bŽq
+    1  ‰³‰N
+    2  •¸“Ð
+    3  ’š‰K
+    4  •è’C
+    5  ŒÈ–¤
+    6  MŒß
+    7  h–¢
+    8  p\
+    9  á¡“Ñ
+   10  bœú
+   11  ‰³ˆå
+   12  •¸Žq
+   13  ’š‰N
+   14  •è“Ð
+   15  ŒÈ‰K
+   16  M’C
+   17  h–¤
+   18  pŒß
+   19  á¡–¢
+   20  b\
+   21  ‰³“Ñ
+   22  •¸œú
+   23  ’šˆå
+   24  •èŽq
+   25  ŒÈ‰N
+   26  M“Ð
+   27  h‰K
+   28  p’C
+   29  á¡–¤
+   30  bŒß
+   31  ‰³–¢
+   32  •¸\
+   33  ’š“Ñ
+   34  •èœú
+   35  ŒÈˆå
+   36  MŽq
+   37  h‰N
+   38  p“Ð
+   39  á¡‰K
+   40  b’C
+   41  ‰³–¤
+   42  •¸Œß
+   43  ’š–¢
+   44  •è\
+   45  ŒÈ“Ñ
+   46  Mœú
+   47  hˆå
+   48  pŽq
+   49  á¡‰N
+   50  b“Ð
+   51  ‰³‰K
+   52  •¸’C
+   53  ’š–¤
+   54  •èŒß
+   55  ŒÈ–¢
+   56  M\
+   57  h“Ñ
+   58  pœú
+   59  á¡ˆå
 
 %sample
- ;2012/1/1ï¼ˆè¾›é…‰ï¼‰ã®å ´åˆ
+ ;2012/1/1ih“Ñj‚Ìê‡
 
-sdim å¹²æ”¯, 64, 60
-å¹²æ”¯( 0) = "ç”²å­", "ä¹™ä¸‘", "ä¸™å¯…", "ä¸å¯", "æˆŠè¾°", "å·±å·³", "åºšåˆ", "è¾›æœª", "å£¬ç”³", "ç™¸é…‰", "ç”²æˆŒ", "ä¹™äº¥", "ä¸™å­", "ä¸ä¸‘", "æˆŠå¯…", "å·±å¯", "åºšè¾°", "è¾›å·³", "å£¬åˆ", "ç™¸æœª"
-å¹²æ”¯(20) = "ç”²ç”³", "ä¹™é…‰", "ä¸™æˆŒ", "ä¸äº¥", "æˆŠå­", "å·±ä¸‘", "åºšå¯…", "è¾›å¯", "å£¬è¾°", "ç™¸å·³", "ç”²åˆ", "ä¹™æœª", "ä¸™ç”³", "ä¸é…‰", "æˆŠæˆŒ", "å·±äº¥", "åºšå­", "è¾›ä¸‘", "å£¬å¯…", "ç™¸å¯"
-å¹²æ”¯(40) = "ç”²è¾°", "ä¹™å·³", "ä¸™åˆ", "ä¸æœª", "æˆŠç”³", "å·±é…‰", "åºšæˆŒ", "è¾›äº¥", "å£¬å­", "ç™¸ä¸‘", "ç”²å¯…", "ä¹™å¯", "ä¸™è¾°", "ä¸å·³", "æˆŠåˆ", "å·±æœª", "åºšç”³", "è¾›é…‰", "å£¬æˆŒ", "ç™¸äº¥"
-mes å¹²æ”¯( MJD2Kanshi(ConvertG2MJD(2012,1,1)) )
+sdim Š±Žx, 64, 60
+Š±Žx( 0) = "bŽq", "‰³‰N", "•¸“Ð", "’š‰K", "•è’C", "ŒÈ–¤", "MŒß", "h–¢", "p\", "á¡“Ñ", "bœú", "‰³ˆå", "•¸Žq", "’š‰N", "•è“Ð", "ŒÈ‰K", "M’C", "h–¤", "pŒß", "á¡–¢"
+Š±Žx(20) = "b\", "‰³“Ñ", "•¸œú", "’šˆå", "•èŽq", "ŒÈ‰N", "M“Ð", "h‰K", "p’C", "á¡–¤", "bŒß", "‰³–¢", "•¸\", "’š“Ñ", "•èœú", "ŒÈˆå", "MŽq", "h‰N", "p“Ð", "á¡‰K"
+Š±Žx(40) = "b’C", "‰³–¤", "•¸Œß", "’š–¢", "•è\", "ŒÈ“Ñ", "Mœú", "hˆå", "pŽq", "á¡‰N", "b“Ð", "‰³‰K", "•¸’C", "’š–¤", "•èŒß", "ŒÈ–¢", "M\", "h“Ñ", "pœú", "á¡ˆå"
+mes Š±Žx( MJD2Kanshi(ConvertG2MJD(2012,1,1)) )
 
 %href
 ConvertG2MJD
 GetMJDToday
 
 %group
-æ—¥ä»˜è¨ˆç®—
+“ú•tŒvŽZ
 
 %index
 GetMJDToday
-ç¾åœ¨ã®ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‚’å–å¾—
+Œ»Ý‚ÌC³ƒ†ƒŠƒEƒX“ú‚ðŽæ“¾
 
 %prm
 ()
-val : ç¾åœ¨ã®ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
+val : Œ»Ý‚ÌC³ƒ†ƒŠƒEƒX“ú
 
 %inst
-ç¾åœ¨ã®ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã‚’å–å¾—ã—ã¾ã™ã€‚
-å¹´æœˆæ—¥ã ã‘ã‚’å–å¾—ã™ã‚‹ã®ã§çµæžœã¯æ•´æ•°ã§ã™ã€‚
+Œ»Ý‚ÌC³ƒ†ƒŠƒEƒX“ú‚ðŽæ“¾‚µ‚Ü‚·B
+”NŒŽ“ú‚¾‚¯‚ðŽæ“¾‚·‚é‚Ì‚ÅŒ‹‰Ê‚Í®”‚Å‚·B
 
 %sample
-; ã‚µãƒ³ãƒ—ãƒ«ã‚¹ã‚¯ãƒªãƒ—ãƒˆ ã‚’è¨˜å…¥
+; ƒTƒ“ƒvƒ‹ƒXƒNƒŠƒvƒg ‚ð‹L“ü
 
 %href
 GetMJDNow
 ConvertMJD2G
 
 %group
-æ—¥ä»˜å–å¾—
+“ú•tŽæ“¾
 
 %index
 GetMJDNow
-ç¾åœ¨ã®ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ï¼ˆæ™‚åˆ»ï¼‰ã‚’å–å¾—
+Œ»Ý‚ÌC³ƒ†ƒŠƒEƒX“úiŽžj‚ðŽæ“¾
 
 %prm
 ()
-val : ç¾åœ¨ã®ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã®æ™‚åˆ»
+val : Œ»Ý‚ÌC³ƒ†ƒŠƒEƒX“ú‚ÌŽž
 
 %inst
-ç¾åœ¨ã®ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥ã®æ™‚åˆ»ã‚’å–å¾—ã—ã¾ã™ã€‚
-æ™‚åˆ»ã®ã¿ã‚’å–å¾—ã—ã¾ã™ã€‚çµæžœã¯1.0æœªæº€ã®å®Ÿæ•°ã«ãªã‚Šã¾ã™ã€‚
-GetMJDTodayé–¢æ•°ã®çµæžœã¨è¶³ã—ç®—ã—ã¦åˆ©ç”¨ã—ã¦ãã ã•ã„ã€‚
+Œ»Ý‚ÌC³ƒ†ƒŠƒEƒX“ú‚ÌŽž‚ðŽæ“¾‚µ‚Ü‚·B
+Žž‚Ì‚Ý‚ðŽæ“¾‚µ‚Ü‚·BŒ‹‰Ê‚Í1.0–¢–ž‚ÌŽÀ”‚É‚È‚è‚Ü‚·B
+GetMJDTodayŠÖ”‚ÌŒ‹‰Ê‚Æ‘«‚µŽZ‚µ‚Ä—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
 
 %sample
-; ã‚µãƒ³ãƒ—ãƒ«ã‚¹ã‚¯ãƒªãƒ—ãƒˆ ã‚’è¨˜å…¥
+; ƒTƒ“ƒvƒ‹ƒXƒNƒŠƒvƒg ‚ð‹L“ü
 
 %href
 GetMJDToday
 ConvertMJD2Time
 
 %group
-æ—¥ä»˜å–å¾—
+“ú•tŽæ“¾
 

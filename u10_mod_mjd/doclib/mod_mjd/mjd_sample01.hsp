@@ -4,30 +4,30 @@
 ;
 ;============================================================
 ;
-; ã‚°ãƒ¬ã‚´ãƒªã‚ªæš¦ã€€â†â†’ã€€ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
+; ƒOƒŒƒSƒŠƒI—ï@©¨@C³ƒ†ƒŠƒEƒX“ú
 ;
-; é€šå¸¸ã®å¹´æœˆæ—¥ã‚’æ—¥ã ã‘ã®è¡¨è¨˜ã«ã—ã¾ã™ã€‚
+; ’Êí‚Ì”NŒ“ú‚ğ“ú‚¾‚¯‚Ì•\‹L‚É‚µ‚Ü‚·B
 ;
 ;============================================================
 #include "mod_mjd.hsp"
 
 ;-----------------------------
-;	ã‚°ãƒ¬ã‚´ãƒªã‚ªæš¦ã€€â†â†’ã€€ä¿®æ­£ãƒ¦ãƒªã‚¦ã‚¹æ—¥
+;	ƒOƒŒƒSƒŠƒI—ï@©¨@C³ƒ†ƒŠƒEƒX“ú
 ;-----------------------------
-;Wikipediaã€Œãƒ¦ãƒªã‚¦ã‚¹é€šæ—¥ 4 è¥¿æš¦ã‹ã‚‰ã®æ›ç®— è¨ˆç®—ä¾‹ã€ã‚ˆã‚Š
+;Wikipediauƒ†ƒŠƒEƒX’Ê“ú 4 ¼—ï‚©‚ç‚ÌŠ·Z ŒvZ—áv‚æ‚è
 ;https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%AA%E3%82%A6%E3%82%B9%E9%80%9A%E6%97%A5#.E8.A8.88.E7.AE.97.E4.BE.8B
-;ç´€å…ƒå‰4713å¹´ 1æœˆ 1æ—¥ã€€â†’ã€€-2399963
-;       200å¹´ 3æœˆ 1æ—¥ã€€â†’ã€€ -605833
-;      1582å¹´10æœˆ15æ—¥ã€€â†’ã€€ -100840
-;      2000å¹´ 1æœˆ 1æ—¥ã€€â†’ã€€   51544
+;‹IŒ³‘O4713”N 1Œ 1“ú@¨@-2399963
+;       200”N 3Œ 1“ú@¨@ -605833
+;      1582”N10Œ15“ú@¨@ -100840
+;      2000”N 1Œ 1“ú@¨@   51544
 ;
-mes "BC 4713å¹´ 1æœˆ 1æ—¥ã€€â†’ã€€" + ConvertG2MJD(1-4713, 1, 1)
-mes "AD  200å¹´ 3æœˆ 1æ—¥ã€€â†’ã€€" + ConvertG2MJD(   200, 3, 1)
-mes "AD 1582å¹´10æœˆ15æ—¥ã€€â†’ã€€" + ConvertG2MJD(  1582,10,15)
-mes "AD 2000å¹´ 1æœˆ 1æ—¥ã€€â†’ã€€" + ConvertG2MJD(  2000, 1, 1)
-x = -2399963 : ConvertMJD2G x, Year, Month, Day : mes strf("%8dã€€â†’ã€€%5då¹´%2dæœˆ%2dæ—¥",x, Year, Month, Day)
-x =  -605833 : ConvertMJD2G x, Year, Month, Day : mes strf("%8dã€€â†’ã€€%5då¹´%2dæœˆ%2dæ—¥",x, Year, Month, Day)
-x =  -100840 : ConvertMJD2G x, Year, Month, Day : mes strf("%8dã€€â†’ã€€%5då¹´%2dæœˆ%2dæ—¥",x, Year, Month, Day)
-x =    51544 : ConvertMJD2G x, Year, Month, Day : mes strf("%8dã€€â†’ã€€%5då¹´%2dæœˆ%2dæ—¥",x, Year, Month, Day)
+mes "BC 4713”N 1Œ 1“ú@¨@" + ConvertG2MJD(1-4713, 1, 1)
+mes "AD  200”N 3Œ 1“ú@¨@" + ConvertG2MJD(   200, 3, 1)
+mes "AD 1582”N10Œ15“ú@¨@" + ConvertG2MJD(  1582,10,15)
+mes "AD 2000”N 1Œ 1“ú@¨@" + ConvertG2MJD(  2000, 1, 1)
+x = -2399963 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d@¨@%5d”N%2dŒ%2d“ú",x, Year, Month, Day)
+x =  -605833 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d@¨@%5d”N%2dŒ%2d“ú",x, Year, Month, Day)
+x =  -100840 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d@¨@%5d”N%2dŒ%2d“ú",x, Year, Month, Day)
+x =    51544 : ConvertMJD2G x, Year, Month, Day : mes strf("%8d@¨@%5d”N%2dŒ%2d“ú",x, Year, Month, Day)
 
 
