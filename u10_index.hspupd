@@ -143,7 +143,7 @@ https://mclab.uunyan.com/dl/dl60.htm
 
 %index
 u10_test_1
-[検証]test_1
+[検証]test_1 v2
 %group
 addon
 %type
@@ -157,8 +157,10 @@ HSP3アップデーターの検証用のパッケージです。
 \doclib\test\test.txt
 「[検証]test_2」と同じ内容です。
 結果確認のため、test.txtの内容だけ変更してあります。
+--- Update ---
+2024/03/04 Update test
 %last
-2024/2/27
+2024/3/1
 %base
 hsp36,hsp37
 %license
@@ -231,7 +233,7 @@ https://mclab.uunyan.com/dl/dl46.htm
 u10_mod_mjd.zip:8fedf226af68d47e25e8310b34fd6091e71d7e9b7b0965a077ccca24140b494a
 u10_mod_plot.zip:a65ed7614a8b4f1393e1bff14ad79eb453cd5fd6c2bd965eed9c4732cc0a9fc8
 u10_mod_quaternion.zip:be3cb4664ae5c715d871ecd206d53d379dcec04677818b507771eaba075e3a4b
-u10_test_1.zip:0a0a1c3136a00909b1a6efd0be39814b88eeeeaa681d39cf87ada9c4df6c3021
+u10_test_1.zip:b773ce39747765de43e35c766363bcf4d46d3697a61ca53c704d0915fb17a08a
 u10_test_2.zip:0856b7aa16dcae31999cdcbce9b509c88918c901b7eab592c7d648e6b26c8bc2
 
 
