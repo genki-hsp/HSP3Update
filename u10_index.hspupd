@@ -1,7 +1,7 @@
 %platform
 win32
 %date
-2024/2/29
+2024/3/4
 %note
 HSP3 user package information.
 %link
@@ -195,14 +195,14 @@ GENKI
 %inst
 HSP3アップデーターの検証用のパッケージです。
 一般ユーザーはンストールしないで下さい。
-
 以下の内容がインストールされます
 \doclib\test\test.txt
-
 「[検証]test_1」と同じ内容です。
 結果確認のため、test.txtの内容だけ変更してあります。
+--- Update ---
+2024/03/04 アップデート動作検証のため、更新した内容を公開しています。
 %last
-2024/2/27
+2024/3/4
 %base
 hsp36,hsp37
 %license
